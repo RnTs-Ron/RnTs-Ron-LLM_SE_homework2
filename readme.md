@@ -44,7 +44,7 @@
 ## 🏗️ 项目结构
 
 ```
-src/main/
+src/main/java/com/example/watermarkapp/
 ├── Main.java              # 应用程序入口
 ├── MainWindow.java        # 主窗口界面和核心逻辑
 ├── ConfigManager.java     # 配置和模板管理
@@ -70,7 +70,7 @@ src/main/
 ### 编译运行
 ```bash
 # 编译项目
-javac -d out src/main/*.java
+javac -d out src/main/java/com/example/watermarkapp/*.java
 
 # 运行应用
 java -cp out main.Main
